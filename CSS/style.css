@@ -1,0 +1,152 @@
+* {
+	margin: 0;
+}
+
+body {
+	font-family: 'Droid Sans';
+}
+
+header {
+	background-color: black;
+	border-bottom: 3px solid yellow;
+	padding: 10px 5px 5px 5px;
+	height: 75px;
+}
+
+h1 {
+	color: yellow;
+	font-size: 2em;
+	padding-left: 10px;
+}
+
+nav {
+	float: right;
+	/* width: 600px; */
+}
+nav > a {
+	color: white;
+	text-decoration: none;
+	margin-right: 15px;
+
+}
+
+.nav {
+	text-transform: uppercase;
+	font-family: Oswald;
+}
+
+#headline {
+	height: 45px;
+	background-color: #dbdbdb;
+	text-align: center;
+	padding-top: 10px;
+	font-style: italic;
+}
+
+span:first-of-type {
+	text-decoration: line-through;
+	color: gray;
+}
+
+span:last-of-type {
+	padding-bottom: 1px;
+	border-bottom: 3px solid yellow;
+}
+
+.image-background {
+	height: 500px;
+	background-image: url('../Images/coworking.jpg');
+	background-size: cover; 
+}
+
+aside {
+	margin-left: 20px;
+	background-color: white;
+	opacity: .8;
+	padding-top: 20px;
+	float: right;
+	height: 300px;
+	width: 250px;
+	padding: 20px 20px 10px 20px;
+	margin: 60px 100px 0px 0px;
+	box-shadow: 3px 3px 3px #888;
+}
+
+aside > h2 {
+	margin-bottom: 10px;
+	font-size: 1.5em;
+}
+
+aside > a {
+	background-color: yellow; 
+	color: black;
+	text-decoration: none;
+	padding: 10px;
+	display: block;
+	text-align: center;
+	margin: 20px auto;
+	width: 150px;
+	text-transform: uppercase;
+	font-family: Oswald;
+	border-radius: 8px;
+	 box-shadow: 0px 3px 3px #888888;
+
+}
+
+/*How do I override the opacity of the aside element so that the 
+yellow button is completely opague? */
+
+p {
+	line-height: 1.5;
+	margin-bottom: 10px;
+}
+
+section > div {
+	float: left;
+	width: 30%;
+	height: 200px;
+	background-color: white;
+	padding: 20px 0 0 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.section {
+	padding-bottom: 10px;
+}
+
+.right-border {
+	border-right: 1px solid gray;
+	padding-right: 10px;
+}
+
+/* How do I create a border like the one in the original image that doesn't extend 
+the full width of the section? div have a differnt height? 
+
+
+
+*/
+
+div > a {
+	display: block;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+	margin: 40px auto;
+	background-color: #dbdbdb;
+	width: 200px;
+	color: black;
+	padding: 6px 0;
+	font-family: Oswald;
+	border-radius: 8px;
+	box-shadow: 0px 3px 3px #888888;
+}	
+
+
+footer {
+	clear: both;
+	color: white;
+	background-color: black;
+	height: 10px;
+	padding: 10px 0 15px 10px;
+}
